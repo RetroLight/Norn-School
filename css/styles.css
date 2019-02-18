@@ -1,0 +1,627 @@
+body {
+	max-width: 100%;
+	height: 100vh;
+	font-family: Ubuntu, Arial, sans-serif;  
+	font-size: 1.3vmax;
+}
+.main_first_block {	
+	width: 100%;
+	height: auto;		
+	overflow: hidden;
+	position: relative;
+}
+.background_white_romb1, .background_white_romb2 {
+	height: 57vmax;
+	width: 48vmax;
+	left: 10.5vmax;
+	top: -7vmax;
+	background-color: #fff;
+	position: absolute;
+	z-index: 1;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.background_white_romb2 {
+	z-index: 1;	
+	left: 76vmax;
+	top: -18vmax;
+}
+header {
+	position: relative;
+	z-index: 2;
+	width: 93.3vmax;
+	height: auto;	
+	margin: 0 auto;
+}
+.main_school_contacts {
+	width: 100%;
+	padding-top: 2vmax;
+	font-size: 1.5vmax;
+	display: flex;
+	justify-content: space-between;
+}
+div p {
+	display: inline-block;
+}
+.social {
+	width: 2vmax;
+	margin-left: 1.5vw;
+}
+#vk {
+	width: 2.5vmax;
+	margin-left: 1.5vw;
+}
+.main_logo_name {
+	display: flex;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+#logo {
+	margin-right: 2vw;
+	width: 6vw;
+}
+#norn {
+	width: 8vw;
+}
+.main_nav li{
+font-size: 1.4vmax;
+font-weight: lighter;
+text-transform: uppercase;
+display: inline-flex;
+margin-right: 3.5vmax;
+}
+.main_nav a:hover {
+ text-decoration: overline;
+ transition: 100ms;	  
+	
+}
+.main_nav a:active {
+	outline: none;
+}
+.main_nav a {
+	text-decoration: none;
+	color: #000;
+}
+.main_rombs {
+	position: relative;
+	margin: 0 auto;
+	width: 93.3vmax;
+	height: 25vmax;	
+}
+.romb1 {
+	background: #BA9898;
+	width: 33vmax;
+	height: 33vmax;
+	-webkit-transform: rotate(45deg);
+	 transform: rotate(45deg);	 
+	 position: absolute;
+	 left: 15vmax;
+	top: 8.5vmax;
+	z-index: 4;
+}
+#romb1_text {	
+	line-height: 2vmax;
+	position: absolute;
+	top: 9vmax;
+	left: 4vmax;
+	top: 10vmax;
+	white-space: pre;
+	-webkit-transform: rotate(-45deg);
+	 transform: rotate(-45deg);
+}
+a.button {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	padding-top: 0.8vmax;
+	text-align: center;
+	position: absolute;
+	left: 17vmax;
+	top: 22vmax;
+	width: 13vmax;
+	height: 2vmax;
+	border: 1px solid #000;
+	-webkit-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
+}
+a.button:hover {
+	border: none;	
+	transition: 50ms;
+	background-color: rgba(255,255,255, 0.5);
+	box-shadow: 0px 4px 13px 0px rgba(50, 50, 50, 0.73);
+}
+a.button:active {
+	background-color: rgba(141,141,141, 0.5);
+	box-shadow: none;
+	outline: none;
+}
+.in_romb1_white {
+	background-color: #fff;
+	width: 5.5vmax;
+	height: 5.5vmax;	
+}
+.in_in_romb1_grey {
+	background: #435465;
+	width: 3.2vmax;
+	height: 3.2vmax;	
+}
+.romb2 {
+	background: #BACBDC;
+	position: absolute;
+	height: 15vmax;
+	width: 15vmax;
+	-webkit-transform: rotate(135deg);
+	 transform: rotate(135deg);
+	left: 39.7vmax;
+	top: 35.4vmax;
+	z-index: 2;
+}
+#romb2_text {
+	line-height: 3vmax;
+	-webkit-transform: rotate(-135deg);
+	        transform: rotate(-135deg);
+	position: absolute;
+	left: 5vmax;
+	white-space: pre;
+}
+.in_romb2_blue {
+	background: #112132;
+	height: 3.5vmax;
+	width: 3.5vmax;
+}
+.in_in_romb2_lightblue {
+	background: #BACBDC; 
+	height: 2vmax;
+	width: 2vmax;
+}
+.romb3 {
+	height: 41vmax;
+	width: 41vmax;
+	position: absolute;	
+	left: 43.7vmax;
+	overflow: hidden;
+	-webkit-transform: rotate(45deg);
+	 transform: rotate(45deg);	 
+	 z-index: 3;
+}
+.romb3 img {
+	-webkit-transform: rotate(-45deg);
+	 transform: rotate(-45deg);
+	height: 56vmax;
+	width: 61vmax;
+	position: absolute;
+	bottom: -11vmax;
+	right: -13vmax;
+}
+.in_romb3_blue {
+	background: #BACBDC;
+	height: 4vmax;
+	width: 4vmax;	
+}
+.in_romb3_houses {
+	background-color: #000;
+	position: absolute;
+	height: 14vmax;
+	width: 14vmax;
+	overflow: hidden;
+	left: 27vmax;
+	top: 27vmax;
+}
+.in_romb3_houses img {
+	-webkit-transform: rotate(-45deg);
+	 transform: rotate(-45deg);
+	position: absolute;
+	width: 20vmax;
+	height: 22vmax;
+	left: -2.9vmax;
+	bottom: -4vmax;
+}
+.education {
+	position: relative;
+	height: 75vmax;
+	width: 100%;
+	background: url(../images/sea_background.png);
+
+	background-size: cover;	
+}
+.what_type {
+	position: relative;
+	top: 34vmax;
+	text-align: center;
+}
+#white_mark {
+	width: 8.5vw;
+}
+#what_typeid {
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 1vmax;
+	font-size: 1.5vmax;
+}
+.types_of_courses {
+	margin: 0 auto;
+	width: 93.3vmax;
+	height: 20vmax;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	top: 36vmax;
+	align-items: center;
+}
+.type1, .type2, .type3 {
+	flex-basis: 30%;
+	background-color: green;
+	height: 17vmax;
+	background: rgba(0, 0, 0, 0.4);
+}
+.white_romb_between {
+	width: 1vmax;
+	height: 1vmax;
+	background-color: #fff;
+	-webkit-transform: rotate(45deg);
+	        transform: rotate(45deg);
+}
+.type_description {
+	width: 70%;
+	margin: 0 auto;
+	font-size: 1vmax;
+	color: #fff;
+}
+.type_description h2 {
+	font-size: 1.4vmax;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: left;
+	margin-top: 3vmax;
+	margin-bottom: 2vmax;
+}
+.type_description p {
+	margin-bottom: 2vmax;
+}
+.type_description a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1vmax;	
+}
+#arrow_link {	
+	margin-left: 1vmax;
+}
+.main_second_block {
+	position: relative;
+	width: 100%;
+	height: auto;
+	background: #112132;
+}
+.lot_of_rombs {
+	overflow: hidden;
+	position: relative;
+	height: 54vmax;
+	width: 100%;
+}
+.main_middle_romb1 {
+	overflow: hidden;
+	position: absolute;
+	top: -4.1vmax;
+	left: 2vmax;
+	width: 27vmax;
+	height: 27vmax;
+	-webkit-transform: rotate(45deg);
+	        transform: rotate(45deg);
+}
+.main_middle_romb1 img {
+	position: absolute;
+	height: 33vmax;
+	width: 38vmax;
+	bottom: -5vmax;
+	right: -13vmax;
+	-webkit-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
+}
+.main_middle_romb2 {
+	overflow: hidden;
+	position: absolute;
+	top: 25vmax;
+	left: 15vmax;
+	width: 24vmax;
+	height: 24vmax;
+	-webkit-transform: rotate(45deg);
+	 transform: rotate(45deg);
+}
+#einar{
+	width: 36vmax;
+	height: 38vmax;
+	position: absolute;	
+	bottom: -6vmax;
+	right: -6vmax;
+	-webkit-transform: rotate(-45deg);
+	 transform: rotate(-45deg);
+}
+.in_main_middle_romb2_blue {
+	background: #112132;
+	position: absolute;
+	top: 18vmax;	
+	width: 6vmax;
+	height: 6vmax;
+	-webkit-transform: rotate(90deg);
+	 transform: rotate(90deg);	 
+}
+.main_middle_romb3 {
+color: #fff;
+background: #778798;	
+	position: absolute;
+	top: 4.8vmax;
+	left: 32vmax;
+	width: 24vmax;
+	height: 24vmax;
+	-webkit-transform: rotate(45deg);
+	        transform: rotate(45deg);
+}
+.romb_inline {
+	margin-top: 0.5vmax;
+	margin-bottom: 0.5vmax;
+	position: relative;
+	right: -11vmax;
+	height: 0.8vmax;
+	width: 0.8vmax;
+	background: #fff;
+	-webkit-transform: rotate(45deg);
+	 transform: rotate(45deg);
+	 text-align: center;
+
+}
+.info_in_it {
+	position: relative;
+	top: 5vmax;
+	left: 1vmax;
+	line-height: 1.4;
+	font-size: 1.1vmax;
+	text-align: center;
+	-webkit-transform: rotate(-45deg);
+	 transform: rotate(-45deg);
+}
+.main_middle_romb4 {	
+	overflow: hidden;
+	position: absolute;
+	top: 40.8vmax;
+	left: 34vmax;
+	width: 30vmax;
+	height: 30vmax;
+	-webkit-transform: rotate(45deg);
+	        transform: rotate(45deg);
+}
+#room {
+	position: absolute;
+	bottom: 13vmax;
+	left: -14vmax;
+	width: 43vmax;
+	height: 22vmax;
+	-webkit-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
+}
+.main_middle_romb5 {
+	overflow: hidden;
+	position: absolute;
+	bottom: 14vmax;
+	left: 52vmax;
+	width: 15vmax;
+	height: 15vmax;
+	-webkit-transform: rotate(45deg);
+	        transform: rotate(45deg);
+}
+#tutor {
+	position: absolute;
+	bottom: -4vmax;
+	left: -2vmax;
+	width: 22vmax;
+	height: 20vmax;
+	-webkit-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
+}
+.in_main_middle_romb5_blue {
+	position: absolute;
+	width: 4vmax;
+	height: 4vmax;
+	background: #112132;
+	z-index: 6;
+}
+.in_in_main_middle_romb5_white {
+	position: absolute;
+	width: 2vmax;
+	height: 2vmax;
+	background: #fff;
+}
+.main_middle_romb6 {
+	background-color: #432132;
+	overflow: hidden;
+	position: absolute;
+	bottom: 27vmax;
+	left: 61vmax;
+	width: 21vmax;
+	height: 21vmax;
+	-webkit-transform: rotate(45deg);
+	        transform: rotate(45deg);
+}
+#adv, #wind_mill{
+	position: absolute;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	
+}
+#adv {
+	text-transform: uppercase;
+	color: #fff;
+	top: 12vmax;
+	left: 7vmax;
+	font-size: 1.5vmax;
+}
+#wind_mill {
+	width: 7vw;
+	top: 6vmax;
+	left: 6vmax;
+}
+.in_main_middle_romb6_blue {
+	background: #435465;
+	position: absolute;
+	width: 3vmax;
+	height: 3vmax;
+	top: 0.8vmax;
+	left: 0.8vmax;
+}
+.main_middle_romb7 {
+	overflow: hidden;
+	position: absolute;
+	bottom: 14vmax;
+	left: 76vmax;
+	width: 15vmax;
+	height: 15vmax;
+	-webkit-transform: rotate(45deg);
+	 transform: rotate(45deg);
+}
+#online_studying {
+	position: absolute;
+	bottom: -4vmax;
+	left: -4vmax;
+	width: 23vmax;
+	height: 22vmax;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.in_main_middle_romb7 {
+	position: absolute;
+	width: 2.5vmax;
+	height: 2.5vmax;
+	background: #112132;
+	top: 12.5vmax;
+}
+.main_third_block {
+	padding-top: 4vmax;
+	text-align: center;
+	width: 100%;
+	height: 45vmax;
+	background: linear-gradient(rgba(30, 30, 30, 0.8)0%,
+						 rgba(16, 16, 16, 0)4.14%,
+						 rgba(16, 16, 16, 0)54.15%,
+						 rgba(2, 2, 2, 0.6)100%), url(../images/sea_background.png);
+}
+.mark1_white {	
+	width: 7vw;	
+}
+.opinions {
+	font-size: 1.7vmax;
+	margin-top: 3.5vmax;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+#slider_opinions {
+	margin: 0 auto;
+	margin-top: 4.5vmax;
+	background: rgba(0, 0, 0, 0.4);
+	height: 23vmax; 
+	width: 63%;
+	display: flex;
+}
+.arrow_left {
+	height: 100%;
+	flex-basis: 10%;	
+}
+.arrow_right {
+	height: 100%;
+	flex-basis: 10%;	
+}
+.both_arrows {
+	position: relative;
+	top: 10vmax;
+}
+.op_text {
+	display: flex;
+	flex-direction: column;	
+	height: 60%;
+	flex-basis: 80%;
+	color: #fff;
+	text-align: center;
+	font-size: 1.2vmax;
+	line-height: 1.4;
+	margin-top: 7vmax;
+}
+h3 {
+	font-weight: bolder;
+	margin-bottom: 1.5vmax;
+}
+footer {
+	line-height: 1.5;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #fff;
+	width: 100%;
+	height: 35vmax;
+	background: url(../images/Rectangle_footer.png);
+	background-size: 100% 100%;
+}
+.footer1, .footer2, .footer3 {
+	margin-top: 12vmax;
+	height: auto;
+	flex-basis: 25%;
+}
+#footer_logo {
+	width: 5vmax;
+	position: absolute;
+}
+#footer_name {
+	width: 8vmax;
+	margin-left: 7vmax;
+}
+#footer_fullname {
+	font-size: 1.2vmax;
+	margin-left: 7vmax;
+	margin-top: 1vmax;
+}
+.footer2 {
+	margin-left: 5vmax;
+}
+.footer2 a {
+	margin-left: 1.7vmax;
+}
+.ftrsocial {
+	width: 2vmax;
+	margin-bottom: 1.9vmax;
+}
+#vk2 {
+	width: 2.9vmax;
+}
+#footer_num {
+	margin-left: 1.7vmax;
+	
+}
+#footer_mail {
+	margin-left: 2vmax;
+}
+.map_block {
+	width: 100%;
+	height: 21vmax;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/map.png);	
+	background-size: 100% 100%;	
+}
+.mark_and_name {
+	height: 5vmax;
+  width: 5vmax;
+  position: relative;  
+  left: 24.5vmax;
+  top: 3vmax; 
+}
+.inside_map {	
+	margin-left: 0.5vmax;
+	width: 3vmax;
+	height: 4vmax;
+	position: relative;
+}
+#circle {
+	position: absolute;
+	background-color: #435465;
+	height: 1vmax;
+	width: 1vmax;
+	border-radius: 50%;
+	left: 0.8vmax;
+	bottom: 2vmax;
+}

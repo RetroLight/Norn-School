@@ -1,0 +1,611 @@
+body {
+	max-width: 100%;
+	height: 100vh;
+	font-family: Ubuntu, Arial, sans-serif;  
+	font-size: 1.3vmax;	
+	background:url(../images/courses/cover_courses.png) no-repeat 0vmax 25vmax;
+	background-size: 100vmax 63vmax;	
+}
+.courses_blue_background {
+	width: 100%;	
+	max-height: auto;
+	background: #112132;
+	
+	top:-7.3vmax;	
+}
+.courses_footer_background {	
+	background: #778798;
+	width: 100%;
+	height: 25vmax;
+	top: -7.3vmax;	
+}
+.main_wrapper {
+	width: 93vw;
+	height: 88vmax;
+	margin: 0 auto;
+	position: relative;	
+}
+header {
+	width: 100%;
+	height: 11.2vmax;	
+	display: flex;	
+	justify-content: space-between;
+}
+.logo_block{
+	background-color: #BA9898;
+	position: relative;
+	width: 17vmax;
+	height: 17vmax;
+	-webkit-transform: rotate(-135deg);
+	 transform: rotate(-135deg);
+	position: relative;
+	left: 2.7vmax;
+	bottom: 9.5vmax;	
+}
+#logo_courses {
+	-webkit-transform: rotate(135deg);
+	transform: rotate(135deg);
+	position: absolute;
+	top: 2.4vmax;
+	left: 2.5vmax;
+	width: 5vmax;
+}
+#name_courses {
+	-webkit-transform: rotate(135deg);
+	transform: rotate(135deg);
+	position: absolute;
+	top: 1.7vmax;
+	left: 5px;
+	width: 4vmax;
+}
+nav {
+	display: flex;	
+}
+li {
+	text-transform: uppercase;
+	list-style: none;
+	margin-left: 2.8vw; 
+}
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+}
+nav a:hover {
+	text-decoration: overline;
+}
+.social {
+	width: 1.5vmax;
+	margin-left: 1.8vw;
+}
+#vk {
+	width: 2.1vmax;
+}
+.contacts {
+	
+}
+nav, .contacts {
+	padding-top: 5vh;
+}
+.languages_sq {
+	margin-top: 20px;	
+	position: relative;
+	width: 100%;
+	height: 28vmax;
+}
+.what_language {
+	font-size: 1.58vmax;
+	color: #000;
+	text-transform: uppercase;
+	position: absolute;
+	left: 7vmax;
+	top: 6vmax;
+}
+.language_romb1 {
+	background: #BACBDC;
+	width: 11.5vmax;
+	height: 11.5vmax;
+	border: 3px solid #000;
+	position: absolute;
+	left: 24.3vmax;
+	top: 13.5vmax;
+	-webkit-transform: rotate(45deg);
+	 transform: rotate(45deg);
+}
+.test {
+	-webkit-transform: rotate(-45deg);
+	 transform: rotate(-45deg);	
+	position: absolute;
+	top: 12%;
+}
+.test h2 {
+	font-weight: lighter;
+	font-size: 1.6vmax;
+	margin-right: 5vmax;
+	margin-bottom: 2vmax;
+	margin-left: 0.5vmax;
+
+}
+.test p {
+	margin-right: 5vmax;
+	text-align: center;
+}
+.test a {	
+	color: #000; 
+	font-size: 1vmax;
+}
+.language_romb2 {	
+	overflow: hidden;
+	width: 12vmax;
+	height: 12vmax;	
+	position: absolute;
+	left: 33.5vmax;
+	top: 4vmax;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.language_romb2 img {
+	-webkit-transform: rotate(-45deg);
+	 transform: rotate(-45deg);
+	 position: absolute;
+	 top: -27%;	 
+	 left: -17%;
+	 width: 17.5vmax;
+	height: 19vmax;
+	z-index: 1;
+} 
+.language_romb2 h2 {
+	color: #fff;	
+	left: 3.5vmax;
+  top: 7vmax;
+	font-weight: lighter;
+	font-size: 1.6vmax;
+	position: absolute;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	z-index: 2;
+}
+.language_romb3 {
+	overflow: hidden;
+	width: 12vmax;
+	height: 12vmax;
+	position: absolute;
+	left: 42.7vmax;
+	top: 13.3vmax;
+	-webkit-transform: rotate(45deg);
+	 transform: rotate(45deg);
+}
+.language_romb3 img {
+	-webkit-transform: rotate(-45deg);
+	 transform: rotate(-45deg);
+	 position: absolute;
+	 top: -25%;	 
+	 left: -24%;
+	 width: 17.6vmax;
+	 height: 19vmax;
+}
+.language_romb3 h2 {
+	color: #fff;	
+	left: 4.5vmax;
+  top: 7vmax;
+	font-weight: lighter;
+	font-size: 1.6vmax;
+	position: absolute;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	z-index: 2;
+}
+.language_romb4 {		
+	overflow: hidden;
+	width: 12vmax;
+	height: 12vmax;	
+	position: absolute;
+	left: 52vmax;
+	top: 4vmax;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.language_romb4 img {
+	-webkit-transform: rotate(-45deg);
+	 transform: rotate(-45deg);
+	 position: absolute;
+	 top: -27%;	 
+	 left: -17%;
+	 width: 17.5vmax;
+	height: 19vmax;
+}
+.language_romb4 h2 {
+	color: #fff;	
+	left: 5vmax;
+  top: 7vmax;
+	font-weight: lighter;
+	font-size: 1.6vmax;
+	position: absolute;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	z-index: 2;
+} 
+.language_romb5 {
+	overflow: hidden;
+	width: 12vmax;
+	height: 12vmax;	
+	position: absolute;
+	left: 70.5vmax;
+	top: 4vmax;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.language_romb5 img {
+	-webkit-transform: rotate(-45deg);
+	 transform: rotate(-45deg);
+	 position: absolute;
+	 top: -27%;	 
+	 left: -17%;
+	 width: 17.5vmax;
+	height: 19vmax;
+}
+.language_romb5 h2 {
+	color: #fff;	
+	left: 5vmax;
+  top: 7vmax;
+	font-weight: lighter;
+	font-size: 1.6vmax;
+	position: absolute;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	z-index: 2;
+} 
+.language_romb6 {
+	background: #432132;
+	width: 3vmax;
+	height: 3vmax;	
+	position: absolute;
+	left: 47.2vmax;
+	top: 5vmax;
+	-webkit-transform: rotate(45deg);
+	 transform: rotate(45deg);
+}
+.language_romb7 {
+	background: #435465;
+	width: 4.5vmax;
+	height: 4.5vmax;	
+	position: absolute;
+	left: 64.9vmax;
+	top: 3vmax;
+	-webkit-transform: rotate(45deg);
+	 transform: rotate(45deg);
+}
+.in_language_romb7_white {
+	background: #fff;
+	width: 2.3vmax;
+	height: 2.3vmax;
+}
+.in_in_language_romb7_black {
+	background: #112132;
+	width: 1.7vmax;
+	height: 1.7vmax;
+}
+.levels_block {
+	height: 45vmax;
+	width: 100%;	
+	position: relative;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#h1lvl {
+	text-transform: uppercase;
+	font-size: 1.58vmax;
+	font-weight: lighter;
+	width: 100%;	
+	text-align: center;
+}
+.level {
+	margin-bottom: 3vmax;
+	color: #fff;
+	flex-basis: 32%;
+	background: rgba(0, 0, 0, 0.5);
+	height: auto;
+	font-weight: normal;
+	font-size: 0.97vmax;	
+	position: relative;
+	top: -4vmax;
+}
+.level p {
+	padding-right: 8%;
+	line-height: 1;
+}
+.level h2 {
+	margin-bottom: 20px;
+	padding-top: 2vmax;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 1.19vmax;
+}
+.romb_lvl_box {
+	margin-right: 20px;
+	width: 20%;
+	height: 100%;	
+	float: left;
+	position: relative;
+}
+.white_romb_lvl {
+	background-color: white;	
+	width: 1.3vmax;
+	height: 1.3vmax;
+	position: absolute;
+	left: 37%;
+	top: 45%;
+	-webkit-transform: rotate(45deg);
+	 transform: rotate(45deg);
+}
+.clear_romb_lvl {
+	border: 2px solid #fff;
+	width: 1.2vmax;
+	height: 1.2vmax;
+	position: absolute;
+	left: 37%;
+	top: 45%;
+	-webkit-transform: rotate(45deg);
+	 transform: rotate(45deg);
+}
+.double_romb_box {
+	width: 4vmax;
+	height: 2.8vmax;	
+	position: relative;
+	left: 15%;
+	top: 40%;
+	overflow: hidden;	
+}
+.big_lvl {
+	border: 2px solid #fff;
+	width: 2.5vmax;
+	height: 2.5vmax;
+	position: absolute;			
+	left: 0.7vmax;
+	-webkit-transform: rotate(45deg);
+	 transform: rotate(45deg);
+}
+.little_lvl {
+	border: 2px solid #fff;
+	width: 1.2vmax;
+	height: 1.2vmax;
+	position: absolute;	
+	top: 0.5vmax;
+	left: 0.5vmax;
+}
+.schedule {	
+	width: 93vw;	
+	left: 3.5vmax;
+	position: relative;	
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	height: auto;	
+}
+.schedule p {
+	color: #fff;
+	width: 100%;
+	font-size: 1vmax;
+	text-align: center;
+	margin-bottom: 2vmax;
+	margin-top: 0;
+}
+.schedule h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.58vmax;
+	font-weight: lighter;
+	width: 100%;	
+	margin-bottom: 1vmax;
+}
+.months {
+	margin-left: -0.5vmax;
+	margin-bottom: 3%;
+	color: #fff;
+	flex-basis: 32%;
+	background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #BACBDC;
+	height: auto;
+	font-weight: normal;
+	font-size: 0.97vmax;		
+}
+.months h2 {
+	font-size: 1.3vmax;
+	text-transform: uppercase;
+	padding-right: 2vmax;
+	padding-top: 2vmax;
+	padding-bottom: 1vmax;
+	text-decoration: underline;
+	font-weight: lighter;
+	color: #000;
+	text-align: right;	
+}
+.little_rombs_block {
+	margin-right: 20px;
+	margin-left: 1vmax;
+	width: 20%;
+	height: 100%;	
+	float: left;
+	position: relative;
+}
+.schedule_romb1 {
+	background: #BA9898;
+	width: 0.7vmax;
+	height: 0.7vmax;
+	position: absolute;
+	left: 45%;
+	top: 13%;
+	-webkit-transform: rotate(45deg);
+	 transform: rotate(45deg);
+}
+.schedule_romb2 {
+	background: #BACBDC;
+	width: 1.8vmax;
+	height: 1.8vmax;
+	position: absolute;
+	left: 36%;
+	top: 22%;
+	-webkit-transform: rotate(-135deg);
+	 transform: rotate(-135deg);
+	 z-index: 2;
+}
+.in_schedule_romb2_white {
+	background: #eaeff4;
+	width: 1vmax;
+	height: 1vmax;
+}
+.in_in_schedule_romb2_purple {
+	background: #432132;
+	width: 0.5vmax;
+	height: 0.5vmax;
+	position: relative;
+	top: 23%;
+	left: 23%;
+}
+.schedule_romb3 {
+	background: #432132;
+	width: 1.8vmax;
+	height: 1.8vmax;
+	position: absolute;
+	left: 36%;
+	top: 31%;
+	-webkit-transform: rotate(-135deg);
+	 transform: rotate(-135deg);
+	 z-index: 1;
+}
+.in_schedule_romb3_white {
+	background: #eaeff4;
+	width: 0.7vmax;
+	height: 0.7vmax;
+}
+.schedule_romb4 {
+	background: #435465;
+	width: 2.3vmax;
+	height: 2.3vmax;
+	position: absolute;
+	left: 31.7%;
+	top: 42.8%;
+	-webkit-transform: rotate(-135deg);
+	 transform: rotate(-135deg);
+	 z-index: 2;
+}
+.in_schedule_romb4_white {
+	background: #d9e3ec;
+	width: 0.7vmax;
+	height: 0.7vmax;
+}
+.schedule_romb5 {
+	background: #432132;
+	width: 1.8vmax;
+	height: 1.8vmax;
+	position: absolute;
+	top: 57.8%;
+	left: 36.6%;
+	-webkit-transform: rotate(45deg);
+	 transform: rotate(45deg);
+	 z-index: 2;
+}
+.schedule_romb6 {
+	background: #778798;
+	width: 1.5vmax;
+	height: 1.5vmax;
+	position: absolute;
+	left: 39%;
+	top: 69%;
+	-webkit-transform: rotate(45deg);
+	 transform: rotate(45deg);
+	 z-index: 1;
+}
+.in_schedule_romb6_white {
+	background: #cedae6;
+	width: 0.7vmax;
+	height: 0.7vmax;
+}
+.schedule_romb7 {
+	background: #432132;
+	width: 0.7vmax;
+	height: 0.7vmax;
+	position: absolute;
+	left: 46%;
+	top: 83%;
+	-webkit-transform: rotate(45deg);
+	 transform: rotate(45deg);
+}
+.months li {
+	white-space: pre;
+	text-transform: lowercase;
+	margin-bottom: 2.5vh;	
+	color: #000;
+}
+.months li:last-child {
+	padding-bottom: 1vh; 
+}
+.buttons_block {
+	display: flex;
+	flex-direction: row;	
+	width: 32vmax;
+	height: 8vmax;
+	position: relative;	
+	left: 61.4vmax;
+	top: 1vw;
+}
+.button {
+	text-transform: uppercase;	
+	border: 1px solid #fff;
+	height: 4.4vmax;
+	width: 13.8vmax;
+	font-size: 1vmax;
+	line-height: 2vmax;
+	margin-left: 1.8vmax;	
+}
+.button p {
+	color: #fff;
+	margin-top: 0.4vmax;
+	margin-bottom: 0;
+}
+footer {		
+	position: relative;
+	width: 100%;
+	height: auto;	
+}
+.footer_romb {
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	background: #BA9898;
+	height: 15vmax;
+	width: 15vmax;
+	left: -9.5vmax;
+	top: 148vmax;;
+}
+.footer_info {	
+	margin-left: 2.2vmax;
+	font-size: 1.2vmax;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+	line-height: 1.4;
+}
+.footer_info p {
+	padding-top: 4vmax;
+}
+.footer_info ul {
+	padding-top: 5vmax;
+}
+.footer_info a {
+	color: #fff;
+	text-transform: capitalize;
+	margin-bottom: 0.5vmax;
+	text-decoration: none;
+}
+#courses_footer_logo {
+	padding-top: 3vmax;
+	position: absolute;
+	left: 3vmax;
+	top: 1vmax;
+	width: 5vmax;
+}

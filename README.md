@@ -1,2 +1,0 @@
-# Norn-School
-First project
